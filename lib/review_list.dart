@@ -9,12 +9,15 @@ class ReviewList extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Review("assets/images/people.jpg", "Varuna Yasas", "1 review 5 photos", "There is an amazing in Sri Lanka"),
-        Review("assets/images/albert.jpg", "Albert Einstein", "1 review 15 photos", "There is an amazing mind ici"),
-        Review("assets/images/stephen.jpg", "Stephen H.", "1 review 4 photos", "There is an amazing universe"),
-        Review("assets/images/richard.jpeg", "Richard Santiago", "1 review 1 photo", "There is an amazing world")
+        new Review("assets/images/people.jpg", "Varuna Yasas",
+            "1 review 5 photos", "There is an amazing in Sri Lanka"),
+        new Review("assets/images/albert.jpg", "Albert Einstein",
+            "1 review 15 photos", "There is an amazing mind ici"),
+        new Review("assets/images/stephen.jpg", "Stephen H.",
+            "1 review 4 photos", "There is an amazing universe"),
+        new Review("assets/images/richard.jpg", "Richard Santiago",
+            "1 review 1 photo", "There is an amazing world")
       ],
     );
   }
-  
 }
