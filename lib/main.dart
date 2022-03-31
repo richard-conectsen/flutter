@@ -3,6 +3,7 @@ import 'package:flutter_platzi/description_place.dart';
 import 'package:flutter_platzi/review.dart';
 import 'package:flutter_platzi/review_list.dart';
 import 'package:flutter_platzi/gradient_back.dart';
+import 'header_appbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
                 ReviewList(),
               ],
             ),
-            GradientBack(),
+            HeaderAppBar(),
           ],
         ),
       )
