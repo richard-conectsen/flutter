@@ -15,7 +15,7 @@ class ButtonPurple extends StatelessWidget {
       },
       child: Container(
         margin: EdgeInsets.only(
-          top: 30.0
+          top: 30.0,
           left: 20.0,
           right: 20.0
         ),
